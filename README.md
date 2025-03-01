@@ -1,2 +1,2 @@
 ## Blockchain Certificate Generator
-Website ini memberikan layanan generate sertifikat digital berbasis blockchain untuk seminar, workshop, atau event kampus lainnya. User bisa input nama dan acara, lalu "generate" (simulasi saja di project ini).
+Website ini memberikan layanan generate sertifikat digital berbasis blockchain untuk seminar, workshop, atau event kampus lainnya.
