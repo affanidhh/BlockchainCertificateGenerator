@@ -1,0 +1,119 @@
+/* Reset dan Global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #282c34;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+header nav a {
+    color: #f39c12;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+header nav a:hover {
+    color: white;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #007acc;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 16px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Form Section */
+.form-section {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+.form-section h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #007acc;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007acc;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #005fa3;
+}
+
+/* Footer */
+footer {
+    margin-top: 30px;
+    text-align: center;
+    padding: 15px;
+    background-color: #282c34;
+    color: white;
+    font-size: 14px;
+}
